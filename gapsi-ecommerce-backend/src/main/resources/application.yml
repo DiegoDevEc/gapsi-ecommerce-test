@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: play-todoo-backend
+
+api:
+  version: v1.0.0
+  user-welcome: Bienvenido Candidato 01
+

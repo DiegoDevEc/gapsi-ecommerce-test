@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Proveedor A",
+    "companyName": "Proveedor A S.A.",
+    "address": "Av. Siempre Viva 123"
+  },
+  {
+    "id": 2,
+    "name": "Proveedor 2",
+    "companyName": "Proveedor 2 S.A. de C.V.",
+    "address": "Calle Ficticia No. 2, Colonia Centro"
+  },
+  {
+    "id": 4,
+    "name": "Proveedor 4",
+    "companyName": "Proveedor 4 S.A. de C.V.",
+    "address": "Calle Ficticia No. 4, Colonia Centro"
+  },
+  {
+    "id": 5,
+    "name": "Proveedor 5",
+    "companyName": "Proveedor 5 S.A. de C.V.",
+    "address": "Calle Ficticia No. 5, Colonia Centro"
+  },
+  {
+    "id": 6,
+    "name": "Proveedor 6",
+    "companyName": "Proveedor 6 S.A. de C.V.",
+    "address": "Calle Ficticia No. 6, Colonia Centro"
+  },
+  {
+    "id": 7,
+    "name": "Proveedor 7",
+    "companyName": "Proveedor 7 S.A. de C.V.",
+    "address": "Calle Ficticia No. 7, Colonia Centro"
+  },
+  {
+    "id": 8,
+    "name": "Proveedor 8",
+    "companyName": "Proveedor 8 S.A. de C.V.",
+    "address": "Calle Ficticia No. 8, Colonia Centro"
+  },
+  {
+    "id": 9,
+    "name": "Proveedor 9",
+    "companyName": "Proveedor 9 S.A. de C.V.",
+    "address": "Calle Ficticia No. 9, Colonia Centro"
+  },
+  {
+    "id": 10,
+    "name": "Proveedor 10",
+    "companyName": "Proveedor 10 S.A. de C.V.",
+    "address": "Calle Ficticia No. 10, Colonia Centro"
+  },
+  {
+    "id": 11,
+    "name": "Proveedor 11",
+    "companyName": "Proveedor 11 S.A. de C.V.",
+    "address": "Calle Ficticia No. 11, Colonia Centro"
+  },
+  {
+    "id": 12,
+    "name": "Proveedor 12",
+    "companyName": "Proveedor 12 S.A. de C.V.",
+    "address": "Calle Ficticia No. 12, Colonia Centro"
+  },
+  {
+    "id": 13,
+    "name": "Proveedor 13",
+    "companyName": "Proveedor 13 S.A. de C.V.",
+    "address": "Calle Ficticia No. 13, Colonia Centro"
+  },
+  {
+    "id": 14,
+    "name": "Proveedor 14",
+    "companyName": "Proveedor 14 S.A. de C.V.",
+    "address": "Calle Ficticia No. 14, Colonia Centro"
+  },
+  {
+    "id": 15,
+    "name": "Proveedor 15",
+    "companyName": "Proveedor 15 S.A. de C.V.",
+    "address": "Calle Ficticia No. 15, Colonia Centro"
+  },
+  {
+    "id": 16,
+    "name": "Proveedor B",
+    "companyName": "Proveedor B",
+    "address": "Calle A y Calle B"
+  }
+]

@@ -1,0 +1,298 @@
+/* =========================
+   LAYOUT GENERAL
+   ========================= */
+.providers-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f9fafb 0%, #f1f5f9 100%);
+  color: #333;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.custom-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #e5e7eb;
+  backdrop-filter: blur(8px);
+}
+
+.custom-header .logo-container img {
+  height: 45px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.custom-header .logo-container img:hover {
+  transform: scale(1.05);
+}
+
+.custom-header .header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* =========================
+   CONTENIDO PRINCIPAL
+   ========================= */
+.providers-content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* =========================
+   HEADER DE ACCIONES
+   ========================= */
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.action-buttons-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.action-buttons-header .p-button {
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+}
+
+.p-button-success {
+  background: #16a34a;
+  border: none;
+}
+
+.p-button-success:hover {
+  background: #15803d;
+}
+
+.p-button-secondary {
+  background: #475569;
+  border: none;
+}
+
+.p-button-secondary:hover {
+  background: #334155;
+}
+
+/* =========================
+   TABLA RESPONSIVA
+   ========================= */
+.providers-table {
+  border-radius: 12px;
+  overflow-x: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.providers-table table {
+  width: 100%;
+  min-width: 700px;
+}
+
+.providers-table .p-datatable-thead > tr > th {
+  background: #f1f5f9;
+  color: #334155;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+  padding: 1rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.providers-table .p-datatable-tbody > tr {
+  transition: background 0.2s ease;
+}
+
+.providers-table .p-datatable-tbody > tr:hover {
+  background: #f9fafb;
+}
+
+.providers-table .p-datatable-tbody > tr > td {
+  padding: 0.9rem;
+  color: #475569;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* =========================
+   BOTONES DE ACCIÓN
+   ========================= */
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.action-buttons .p-button {
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.action-buttons .p-button:hover {
+  transform: scale(1.1);
+}
+
+/* =========================
+   DIALOGO DE FORMULARIO
+   ========================= */
+.p-dialog {
+  width: 90vw !important;
+  max-width: 450px !important;
+}
+
+.p-dialog .form-field {
+  margin-bottom: 1.2rem;
+}
+
+/* =========================
+   PAGINADOR
+   ========================= */
+.p-paginator {
+  background: transparent;
+  border: none;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: #4b5563; /* neutro elegante */
+  border-color: #4b5563;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight:hover {
+  background: #374151;
+}
+
+/* =========================
+    MEDIA QUERIES
+   ========================= */
+
+/* Tablets y móviles grandes */
+@media (max-width: 992px) {
+  .providers-content {
+    padding: 1.5rem;
+  }
+
+  .content-card {
+    padding: 1.5rem;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .action-buttons-header {
+    justify-content: flex-start;
+  }
+}
+
+/* Móviles medianos */
+@media (max-width: 768px) {
+  .custom-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .custom-header .header-title {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .content-card {
+    padding: 1rem;
+  }
+
+  .providers-table table {
+    min-width: 100%;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  .providers-content {
+    padding: 1rem;
+  }
+
+  .custom-header .logo-container img {
+    height: 40px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .action-buttons-header {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .action-buttons-header .p-button {
+    width: 100%;
+  }
+
+  .p-dialog {
+    width: 95vw !important;
+  }
+}
+
+/* =========================
+   ANIMACIÓN
+   ========================= */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
